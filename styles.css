@@ -1,0 +1,76 @@
+body {
+	background-color: aliceblue;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.d-flex {
+	display: flex;
+	position: relative;
+}
+.player {
+	width: 300px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.player_0 {
+	background-color: rgb(243, 232, 213);
+}
+.player-name {
+	padding-top: 80px;
+	font-size: 36px;
+	margin: 0;
+	color: rgb(92, 89, 89);
+}
+.player_1 {
+	background-color: rgb(238, 238, 237);
+}
+.score {
+	font-size: 60px;
+	margin: 0;
+	padding: 20px;
+	color: rgb(206, 71, 71);
+}
+.current-label {
+	display: inline-block;
+	background-color: rgb(226, 92, 92);
+	padding: 0 20px;
+	margin-top: 50px;
+}
+.current-name {
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+.current-score {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.dice-img {
+	width: 100px;
+}
+.icons {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	gap: 36px;
+}
+.btn {
+	background-color: #fff;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+}
+i {
+	margin-right: 5px;
+	color: rgb(233, 95, 95);
+}
+
+.hidden {
+	display: none;
+}
+.player-winner {
+	background-color: #2f2f2f;
+}
